@@ -68,7 +68,7 @@ export default function Page() {
     <div>
       {/* Hero */}
       <section className="max-w-5xl mx-auto px-4 sm:px-6 pt-16 pb-12">
-        <div className="inline-flex items-center gap-2 rounded-full border border-blue-400/20 bg-blue-500/[0.08] px-4 py-2 text-[10px] font-mono uppercase tracking-[0.24em] text-blue-200 mb-6">
+        <div className="inline-flex items-center gap-2 rounded-full border border-blue-400/40 bg-blue-500/12 px-4 py-2 text-[10px] font-mono uppercase tracking-[0.24em] text-blue-100 mb-6">
           Curs practic · Română · Hardware real
         </div>
         <h1 className="text-4xl md:text-6xl font-semibold tracking-tight leading-[1.06] mb-6">
@@ -77,14 +77,14 @@ export default function Page() {
             pentru Smart Home
           </span>
         </h1>
-        <p className="text-lg md:text-xl text-neutral-400 font-light leading-relaxed max-w-3xl">
+        <p className="text-lg md:text-xl text-neutral-300 font-light leading-relaxed max-w-3xl">
           4 module, 36 lecții practice. De la zero la un sistem complet de monitorizare panouri solare, control divizori smart și agent AI care optimizează consumul automat.
         </p>
         <div className="mt-10 grid grid-cols-2 md:grid-cols-4 gap-3">
-          <div className="rounded-2xl border border-white/10 bg-white/[0.04] p-4"><div className="text-2xl font-semibold">4</div><div className="mt-1 text-[10px] uppercase tracking-widest text-neutral-500">Module</div></div>
-          <div className="rounded-2xl border border-white/10 bg-white/[0.04] p-4"><div className="text-2xl font-semibold">36</div><div className="mt-1 text-[10px] uppercase tracking-widest text-neutral-500">Lecții</div></div>
-          <div className="rounded-2xl border border-white/10 bg-white/[0.04] p-4"><div className="text-2xl font-semibold">RO</div><div className="mt-1 text-[10px] uppercase tracking-widest text-neutral-500">Română</div></div>
-          <div className="rounded-2xl border border-white/10 bg-white/[0.04] p-4"><div className="text-2xl font-semibold">Real</div><div className="mt-1 text-[10px] uppercase tracking-widest text-neutral-500">Hardware</div></div>
+          <div className="rounded-2xl border border-white/15 bg-white/6 p-4"><div className="text-2xl font-semibold">4</div><div className="mt-1 text-[10px] uppercase tracking-widest text-neutral-400">Module</div></div>
+          <div className="rounded-2xl border border-white/15 bg-white/6 p-4"><div className="text-2xl font-semibold">36</div><div className="mt-1 text-[10px] uppercase tracking-widest text-neutral-400">Lecții</div></div>
+          <div className="rounded-2xl border border-white/15 bg-white/6 p-4"><div className="text-2xl font-semibold">RO</div><div className="mt-1 text-[10px] uppercase tracking-widest text-neutral-400">Română</div></div>
+          <div className="rounded-2xl border border-white/15 bg-white/6 p-4"><div className="text-2xl font-semibold">Real</div><div className="mt-1 text-[10px] uppercase tracking-widest text-neutral-400">Hardware</div></div>
         </div>
       </section>
 
@@ -97,7 +97,7 @@ export default function Page() {
             </div>
             <div>
               <h2 className="text-2xl md:text-3xl font-semibold tracking-tight">{mod.title}</h2>
-              <p className="text-sm text-neutral-500">{mod.lessons.length} lecții practice</p>
+              <p className="text-sm text-neutral-400">{mod.lessons.length} lecții practice</p>
             </div>
           </div>
           <div className="space-y-3">
@@ -110,17 +110,17 @@ export default function Page() {
 
       {/* Final */}
       <section className="max-w-5xl mx-auto px-4 sm:px-6 py-16">
-        <div className="rounded-3xl border border-emerald-400/20 bg-emerald-500/[0.06] p-6 md:p-10">
+        <div className="rounded-3xl border border-emerald-400/40 bg-emerald-500/[0.06] p-6 md:p-10">
           <h2 className="text-3xl font-medium tracking-tight mb-6">La finalul cursului</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm text-neutral-300">
-            <div className="flex items-start gap-3"><span className="text-emerald-400">✅</span> Instalează și configurează Node-RED</div>
-            <div className="flex items-start gap-3"><span className="text-emerald-400">✅</span> Citește senzori tensiune/curent cu ADC</div>
-            <div className="flex items-start gap-3"><span className="text-emerald-400">✅</span> Controlează relee și divizori din browser</div>
-            <div className="flex items-start gap-3"><span className="text-emerald-400">✅</span> Afișează dashboard cu valori reale</div>
-            <div className="flex items-start gap-3"><span className="text-emerald-400">✅</span> Programează acțiuni automate</div>
-            <div className="flex items-start gap-3"><span className="text-emerald-400">✅</span> Publică date prin MQTT</div>
-            <div className="flex items-start gap-3"><span className="text-emerald-400">✅</span> Detectează anomalii și trimite alerte</div>
-            <div className="flex items-start gap-3"><span className="text-emerald-400">✅</span> Construiește un agent AI basic</div>
+            <div className="flex items-start gap-3"><span className="text-emerald-200">✅</span> Instalează și configurează Node-RED</div>
+            <div className="flex items-start gap-3"><span className="text-emerald-200">✅</span> Citește senzori tensiune/curent cu ADC</div>
+            <div className="flex items-start gap-3"><span className="text-emerald-200">✅</span> Controlează relee și divizori din browser</div>
+            <div className="flex items-start gap-3"><span className="text-emerald-200">✅</span> Afișează dashboard cu valori reale</div>
+            <div className="flex items-start gap-3"><span className="text-emerald-200">✅</span> Programează acțiuni automate</div>
+            <div className="flex items-start gap-3"><span className="text-emerald-200">✅</span> Publică date prin MQTT</div>
+            <div className="flex items-start gap-3"><span className="text-emerald-200">✅</span> Detectează anomalii și trimite alerte</div>
+            <div className="flex items-start gap-3"><span className="text-emerald-200">✅</span> Construiește un agent AI basic</div>
           </div>
         </div>
       </section>
@@ -130,18 +130,18 @@ export default function Page() {
 
 function LessonCard({ lesson, lessonIdx, slug, color }: { lesson: { title: string; content: string }; moduleIdx: number; lessonIdx: number; slug: string; color: string }) {
   return (
-    <details className="group rounded-2xl border border-white/10 bg-white/[0.035] overflow-hidden">
+    <details className="group rounded-2xl border border-white/15 bg-white/5 overflow-hidden">
       <summary className="flex items-center gap-4 p-5 cursor-pointer hover:bg-white/[0.02] transition-colors list-none">
-        <div className="w-8 h-8 rounded-lg bg-white/[0.06] flex items-center justify-center text-xs font-mono text-neutral-500 shrink-0">
+        <div className="w-8 h-8 rounded-lg bg-white/[0.06] flex items-center justify-center text-xs font-mono text-neutral-400 shrink-0">
           {lessonIdx + 1}
         </div>
         <div className="flex-1 min-w-0">
           <h3 className="text-sm font-medium text-white truncate">{lesson.title}</h3>
         </div>
-        <span className="text-neutral-600 group-open:rotate-180 transition-transform">▾</span>
+        <span className="text-neutral-500 group-open:rotate-180 transition-transform">▾</span>
       </summary>
-      <div className="px-5 pb-5 pt-0 border-t border-white/5">
-        <div className="pt-5 text-neutral-400 font-light leading-relaxed text-[15px]">
+      <div className="px-5 pb-5 pt-0 border-t border-white/15">
+        <div className="pt-5 text-neutral-300 font-light leading-relaxed text-[15px]">
           {renderContent(lesson.content)}
         </div>
       </div>
@@ -159,7 +159,7 @@ function renderContent(content: string) {
     if (line.startsWith('```')) {
       if (inCodeBlock) {
         elements.push(
-          <pre key={`code-${i}`} className="bg-black/40 border border-white/10 rounded-2xl p-6 overflow-x-auto my-6 text-sm font-mono text-blue-200">
+          <pre key={`code-${i}`} className="bg-dark-700/60 border border-white/15 rounded-2xl p-6 overflow-x-auto my-6 text-sm font-mono text-blue-100">
             {codeLines.join('\n')}
           </pre>
         );
@@ -179,16 +179,16 @@ function renderContent(content: string) {
     } else if (line.startsWith('**Skills:**')) {
       const skills = line.replace('**Skills:**', '').split(',').map(s => s.trim()).filter(Boolean);
       elements.push(
-        <div key={i} className="flex flex-wrap gap-2 mt-6 pt-6 border-t border-white/5">
+        <div key={i} className="flex flex-wrap gap-2 mt-6 pt-6 border-t border-white/15">
           {skills.map((s, j) => (
-            <span key={j} className="px-3 py-1 text-[10px] font-mono rounded-md bg-blue-500/10 border border-blue-400/20 text-blue-300">{s}</span>
+            <span key={j} className="px-3 py-1 text-[10px] font-mono rounded-md bg-blue-500/15 border border-blue-400/40 text-blue-100">{s}</span>
           ))}
         </div>
       );
     } else if (line.trim() === '') {
       elements.push(<div key={i} className="h-2" />);
     } else {
-      elements.push(<p key={i} className="text-neutral-400 leading-relaxed">{line}</p>);
+      elements.push(<p key={i} className="text-neutral-300 leading-relaxed">{line}</p>);
     }
   });
   return elements;
